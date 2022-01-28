@@ -1,0 +1,46 @@
+[
+  {
+    "name": "Implant",
+    "likelihood": 0.0005
+  },
+  {
+    "name": "IUD LNG",
+    "likelihood": 0.002
+  },
+  {
+    "name": "IUD Copper T",
+    "likelihood": 0.008
+  },
+  {
+    "name": "Injection",
+    "likelihood": 0.06
+  },
+  {
+    "name": "Pill",
+    "likelihood": 0.09
+  },
+  {
+    "name": "Patch",
+    "likelihood": 0.09
+  },
+  {
+    "name": "Ring",
+    "likelihood": 0.09
+  },
+  {
+    "name": "Diaphram",
+    "likelihood": 0.12
+  },
+  {
+    "name": "Male Condom",
+    "likelihood": 0.18
+  },
+  {
+    "name": "Female Condom",
+    "likelihood": 0.21
+  },
+  {
+    "name": "Withdrawal",
+    "likelihood": 0.22
+  }
+]
