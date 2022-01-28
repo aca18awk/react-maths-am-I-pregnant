@@ -35,7 +35,7 @@ const MultiAnswerQuestion: FunctionComponent<MultiAnswerQuestionProps> = ({
         <FormattedMessage id={id} />
       </Question>
       {choices.map((name) => (
-        <Label key={name}>
+        <label key={name} className="container">
           <input
             name={id}
             type="checkbox"
@@ -43,8 +43,9 @@ const MultiAnswerQuestion: FunctionComponent<MultiAnswerQuestionProps> = ({
             onChange={(e) => updateList(e.target.value, e.target.checked)}
             disabled={disabled}
           />
+          <span className="checkmark"></span>
           <FormattedMessage id={name} />
-        </Label>
+        </label>
       ))}
     </QuestionArea>
   );

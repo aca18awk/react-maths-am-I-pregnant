@@ -51,13 +51,14 @@ const Results: FunctionComponent<ResultsI> = ({ result }: ResultsI) => {
           the group 1 and women above 39 to the group 2. In reality, the
           probability for these groups may be lower.
         </div>
-
+        <br></br>
         <div> References: </div>
         <div>
           <a
             href="https://academic.oup.com/aje/article/165/9/1088/90537"
             target="_blank"
             rel="noreferrer"
+            style={{ color: "white" }}
           >
             'Effects of Sexual Intercourse Patterns in Time to Pregnancy
             Studies' (2007)
@@ -68,6 +69,7 @@ const Results: FunctionComponent<ResultsI> = ({ result }: ResultsI) => {
             href="https://www.nhs.uk/conditions/contraception/how-effective-contraception"
             target="_blank"
             rel="noreferrer"
+            style={{ color: "white" }}
           >
             UK National Health Service's webpage about contraceptions
           </a>

@@ -8,7 +8,6 @@ import InputQuestion from "./Questions/InputQuestion";
 import MultiChoiceQuestion from "./Questions/MultiChoiceQuestion";
 import { BOOL_ANSWERS, AGE_ANSWERS, CONTRACEPTION_NAMES } from "./constants";
 import { getProbability, Result } from "./helpers";
-import { Redirect } from "react-router-dom";
 import Results from "../Result/Results";
 
 const Form: FunctionComponent = () => {

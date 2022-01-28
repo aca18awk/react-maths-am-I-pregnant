@@ -51,12 +51,13 @@ export const Submit = styled.button`
   font-size: 20px;
   width: 140px;
   font-family: "Cond";
-  color: #2a7c6f;
-  border: 1px solid black;
-  /* background-color: #0051ff; */
+  color: white;
+  border: 1px solid #9846a6;
+  background-color: #ba68c8;
 `;
 
 export const Label = styled.label`
   color: white;
   font-size: 20px;
+  margin-right: 20px;
 `;
